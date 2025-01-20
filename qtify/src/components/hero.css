@@ -1,0 +1,26 @@
+.hero-container{
+    height: 270px;
+    background: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-container{
+    width: 799px;
+    height: 212px;
+    background-color: #121212;
+    color: antiquewhite;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.inner-container img{
+    width: 212px;
+    height: 212px;
+}
+.inner-container .inner-text{
+    width: 556px;
+    height: 100px;
+}

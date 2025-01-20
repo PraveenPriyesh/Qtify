@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rectangle{
+    width: 1430px;
+    height: 74px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #34C94B ;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}   
+.Logo{
+    width: 67px;
+    height: 34px;
+    top: 20px;
+    left: 32px;
+    gap: 0px;
+    opacity: 0px;
+}
+.feedback-btn{
+    width: Hug (170px)px;
+    height: Hug (47px)px;
+    top: 13px;
+    left: 1238px;
+    padding: 10px 16px 10px 16px;
+    gap: 10px;
+    border-radius: 12px 12px 12px 12px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #121212;
+    color: #34C94B;
+    cursor: pointer;
+}
+.searchBar {
+    position: relative; /* Allows positioning of the icon relative to the search bar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensures the search bar matches the parent's height */
+}
+
+.searchBar input {
+    width: 568px; /* Desired width of the input field */
+    height: 48px; /* Height of the input field */
+    padding-right: 40px; /* Leave space for the icon inside the input */
+    padding-left: 10px; /* Left padding for text */
+    border: 1px solid #34C94B; /* Green border */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 16px; /* Font size for text */
+    color: #121212; /* Text color */
+    background: #FFFFFF; /* White background */
+    outline: none; /* Remove focus outline */
+    box-sizing: border-box; /* Ensure padding doesn't affect total width */
+}
+
+.searchBar input::placeholder {
+    color: #888; /* Placeholder text color */
+}
+
+.icon {
+    position: absolute; /* Place the icon relative to the .searchBar container */
+    right: 10px; /* Align the icon to the right inside the input box */
+    top: 50%; /* Vertically center the icon */
+    transform: translateY(-50%); /* Adjust vertical centering precisely */
+    color: #888; /* Icon color */
+    font-size: 18px; /* Icon size */
+    width: 66px;
+    height: 48px;
+    border-left: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    right: 0px;
+    cursor: pointer;
+}
+.container{
+    background-color: #1b1b1b;
+}
